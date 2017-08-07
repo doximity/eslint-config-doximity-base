@@ -19,14 +19,6 @@ module.exports = {
   extends: ['airbnb-base', 'prettier'],
   // required to lint *.vue files
   plugins: ['html'],
-  // check if imports actually resolve
-  settings: {
-    'import/resolver': {
-      webpack: {
-        config: 'build/webpack.base.config.js',
-      },
-    },
-  },
   // add your custom rules here
   rules: {
     // don't require .vue extension when importing
@@ -36,13 +28,6 @@ module.exports = {
       {
         js: 'never',
         vue: 'never',
-      },
-    ],
-    // allow optionalDependencies
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        optionalDependencies: ['test/unit/index.js'],
       },
     ],
     // allow debugger during development
