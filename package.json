@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-doximity-base",
+  "version": "0.1.0",
+  "description": "shared eslint config for all doximity repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Nill",
+  "license": "ISC"
+}
