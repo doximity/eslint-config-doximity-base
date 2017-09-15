@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-doximity-base",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "shared eslint config for all doximity repos",
   "main": "index.js",
   "scripts": {
